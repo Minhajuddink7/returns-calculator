@@ -1,0 +1,58 @@
+#rate {
+  margin-right: 20px;
+}
+.money,
+.type {
+  display: flex;
+  padding: 20px;
+  padding-left: 20%;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid black;
+
+  padding-top: 30px !important;
+}
+.money div,
+.type div {
+  margin: 0 30px;
+}
+div.card {
+  border-radius: 12px;
+  background-color: #ddd;
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+}
+.slider {
+  -webkit-appearance: none;
+  background-color: #334;
+  width: 85%;
+  height: 5px;
+  margin: 10px 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 45%;
+  background-color: #0f73a6;
+  cursor: pointer;
+}
+
+.slider:focus {
+  outline: none;
+}
+button {
+  background-color: #0a79df;
+  color: #eee;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+button:hover {
+  background-color: #4398e7;
+}
