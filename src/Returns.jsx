@@ -23,8 +23,6 @@ class Returns extends React.Component {
   calculateReturn = () => {
     const { amount, duration, rate } = this.state;
     const returns = +amount * 1000 + (+amount * 1000 * +duration * +rate) / 100;
-    console.log(typeof returns, returns);
-
     this.setState({ returns });
   };
 
